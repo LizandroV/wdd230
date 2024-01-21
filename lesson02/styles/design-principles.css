@@ -1,0 +1,97 @@
+body {
+    width: 400px;
+    margin: 0 auto;
+    font-family: "Rubik", sans-serif;
+}
+
+header {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background: rgb(16, 80, 122);
+    color: white;
+}
+
+
+header img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50px;
+    grid-column: 2/3;
+    grid-row: 1/2;
+    padding: 10px;
+}
+
+header h1{
+    grid-column: 2/3;
+    grid-row: 2/3;
+    text-align: center;
+    padding: 10px;
+    margin: 0;
+}
+
+nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: black;
+    text-align: center 
+}
+
+nav a{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+}
+
+nav a:hover{
+    background-color: #000000;
+    color: #8f857d;
+}
+
+hr{
+    margin: 0 20px 0 20px;
+}
+
+main h2{
+    font-family:"Rubik", sans-serif;
+    font-size: 16px;
+    text-align: center;
+    padding-top: 20px;
+    margin-bottom: 0;
+}
+
+.card{
+    display: grid;
+    border-style:solid;
+    border-width: 1px;
+    border-color: #8f857d;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+.card h3{
+    text-align: center;
+    background: rgb(16, 80, 122);
+    color: white;
+    font-family:"Rubik", sans-serif;
+    font-size: 16px;
+    margin: 0;
+    padding: 10px;
+}
+
+.card p{
+    font-family:"Rubik", sans-serif;
+}
+
+footer{
+    font-family:"Rubik", sans-serif;
+    background: rgb(16, 80, 122);
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+footer #mod{
+    color: yellow;
+}
