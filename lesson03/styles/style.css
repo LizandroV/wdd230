@@ -1,0 +1,35 @@
+body {
+    width: 650px;
+    margin: 0 auto;
+    font-family: "Rubik", sans-serif;
+}
+
+h1{
+    text-align: center;
+    padding-top: 25px;
+    margin-bottom: 0;
+}
+
+main h2{
+    font-family:"Rubik", sans-serif;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 20px;
+    margin-bottom: 0;
+}
+
+section {
+    text-align: center;
+}
+
+img{
+    width: 500px;
+}
+
+main h3{
+    font-family:"Rubik", sans-serif;
+    font-size: 14px;
+    text-align: center;
+    padding-top: 20px;
+    margin-bottom: 0;
+}
