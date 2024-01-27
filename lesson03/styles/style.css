@@ -33,3 +33,53 @@ main h3{
     padding-top: 20px;
     margin-bottom: 0;
 }
+
+header{
+    display: grid;
+    grid-template-columns: auto auto;
+    background: rgb(16, 80, 122);
+    color: white;
+}
+
+header img{
+    display: block;
+    margin-left: 70px;
+    margin-right: 0;
+    grid-column: 1/2;
+    grid-row: 1/2;
+    width: 50px;
+}
+
+header h1{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    grid-column: 2/3;
+    grid-row: 1/2;
+    
+}
+
+.navigation {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background: black;
+    text-align: center;
+}
+
+.navigation {
+    flex-direction: row;
+}
+
+.navigation a {
+	display: flex;
+	padding: 0.5rem;
+	text-align: center;
+	text-decoration: none;
+	color: #fff;
+}
+.navigation a:hover {
+	background-color: #bbb;
+	color: #333;
+	font-weight: 700;
+}
