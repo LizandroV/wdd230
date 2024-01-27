@@ -1,4 +1,4 @@
-@media screen and (min-width:550px) {
+@media screen and (min-width:560px) {
     body{
         width: 550px;
     }
@@ -26,13 +26,22 @@
         
     }
 
-    nav {
+    .navigation {
         display: flex;
         flex-direction: row;
         justify-content: center;
         background: black;
-        text-align: center 
+        text-align: center;
     }
+    
+    .navigation {
+		flex-direction: row;
+	}
+
+	.navigation a {
+		display: block;
+		flex: 1 1 100%;
+	}
 
     main{
         display: grid;
@@ -46,5 +55,25 @@
     .card{
         box-shadow: 15px 5px 10px #48529944;
     }
+
+    #menu {
+		display: none; /* hide hamburger button */
+	}
+
+    #activities{
+        grid-column: 1/2;
+        grid-row: 3/4;
+    }
+
+    #information{
+        grid-column: 2/3;
+        grid-row: 3/4;
+    }
+    #gmaps{
+
+        grid-column: 1/3;
+        grid-row: 4/5;
+    }
+    
 
 }
