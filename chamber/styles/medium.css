@@ -43,11 +43,6 @@
 		flex: 1 1 100%;
 	}
 
-    main{
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-    }
-
     .card{
         box-shadow: 15px 5px 10px #48529944;
     }
@@ -55,16 +50,9 @@
     #menu {
 		display: none; /* hide hamburger button */
 	}
-
-    .hero-text{
-        grid-column: 1/3;
-        grid-row: 1/2;
-        padding: 5px;
-        text-align: center;
-    }
     
-    .contentBox{
-        grid-column: 2/3;
+    .buttonBox{
+        top: 250px;
+        left: 0px;
     }
-
 }
