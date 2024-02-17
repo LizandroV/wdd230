@@ -98,7 +98,7 @@ header h1{
     font-size: 20px;
 	border: 1px solid rgba(0,0,0,.75);
 	padding: 1.5rem;
-	box-shadow: 0 0 3rem #fff;
+	box-shadow: 0 0 0.5rem #fff;
 	opacity: 0.75;
 }
 
