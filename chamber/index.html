@@ -38,7 +38,7 @@
     <header>
         <h1>Lima Connect - Chamber</h1>
         <div id="mode">🌟</div>
-        <img src="images/logo.png" alt="Logo">
+        <img src="images/logo.webp" alt="Logo">
         <button id="menu"></button>
     </header>
     <nav class="navigation">
@@ -63,28 +63,36 @@
                 <div class="border"></div>
             </div>
         </div>
-        <!-- Slideshow container -->
-        <div class="slideshow-container">
 
-            <!-- Full-width images with number and caption text -->
+        <!-- Slideshow container 
+        <div class="slideshow-container">
             <div class="mySlides fade">
                 <div class="numbertext"></div>
-                <img src="images/lima_hero.jpg" alt="image1" style="width:100%">
+                <img src="images/lima_hero.webp" alt="image1" style="width:100%">
                 <div class="text"></div>
             </div>
     
             <div class="mySlides fade">
                 <div class="numbertext"></div>
-                <img src="images/lima_hero2.jpg" alt="image2" style="width:100%">
+                <img src="images/lima_hero2.webp" alt="image2" style="width:100%">
                 <div class="text"></div>
             </div>
         
             <div class="mySlides fade">
                 <div class="numbertext"></div>
-                <img src="images/lima_hero3.jpg" alt="image3" style="width:100%">
+                <img src="images/lima_hero3.webp" alt="image3" style="width:100%">
                 <div class="text"></div>
             </div>
+        </div>-->
+
+        <div class="hero_img">
+            <picture>
+                <source media="(min-width: 860px)" srcset="images/wdd230-org-large.webp">
+                <source media="(min-width: 560px)" srcset="images/wdd230-org-medium.webp">
+                <img src="images/wdd230-org-small.webp" alt="temple">
+            </picture>
         </div>
+
         </section>
         <br><br>
         
@@ -99,7 +107,8 @@
             <section id="weather" class="card">
                 <h3>Weather</h3>
                 <p>Lima, Peru</p>
-                <p>⛅22°C - Cloudy</p>
+                <p>⛅ <span id="current">22</span>°C - <span id="outside">Cloudy</span></p>
+                <p>🍃 Wind Speed: <span id="wind">5.1</span>m/s</p>
             </section>
             
             <h2 id="benefits">Benefits of Membership</h2>
@@ -130,16 +139,16 @@
         </div>
         <div class="social">
             <a href="https://www.facebook.com/lizandro.vivanco.1251" target="_blank">
-                <img src="images/facebook.png" alt="Facebook icon">
+                <img src="images/facebook.webp" alt="Facebook icon">
             </a>
             <a href="https://www.instagram.com/lizandrov16/" target="_blank">
-                <img src="images/instagram.png" alt="Instagram icon">
+                <img src="images/instagram.webp" alt="Instagram icon">
             </a>
             <a href="https://github.com/LizandroV" target="_blank">
-                <img src="images/Github.png" alt="Github icon">
+                <img src="images/Github.webp" alt="Github icon">
             </a>
             <a href="https://www.linkedin.com/in/lvivanco16/?locale=en_US" target="_blank">
-                <img src="images/LinkedIn.png" alt="Linkedin icon">
+                <img src="images/LinkedIn.webp" alt="Linkedin icon">
             </a>
         </div>
     </footer>
@@ -147,5 +156,6 @@
     <script src="scripts/hamburgerMenu.js"></script>
     <script src="scripts/slide.js"></script>
     <script src="scripts/darkmode.js"></script>
+    <script src="scripts/windchill.js"></script>
 </body>
 </html>

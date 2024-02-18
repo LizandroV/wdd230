@@ -43,6 +43,16 @@
         grid-row: 1/2;
     }
 
+    /*DELETE LATER*/
+    .hero_img {
+        grid-column: 1/3;
+        grid-row: 1/2;
+    }
+
+    button{
+        color: white;
+    }
+
     .contentBox{
         grid-column: 1/3;
         grid-row: 1/2;
@@ -51,6 +61,7 @@
     button{
         font-weight:900;
         font-size:28px;
+        z-index: 1;
     }
 
     .hero-text{
