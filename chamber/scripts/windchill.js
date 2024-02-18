@@ -3,13 +3,10 @@ const api = {
     url: "https://api.openweathermap.org/data/2.5/weather"
 }
 
-console.log("CLIMA")
-
 async function getWeather(city){
     try{
         const response = await fetch(`${api.url}?q=${city}&appid=${api.key}&lang=en`)
         const data = await response.json();
-        console.log(data);
 
         weather.innerHTML = toCelsius(data.main.temp);
         outside.innerHTML = data.weather[0].description;
