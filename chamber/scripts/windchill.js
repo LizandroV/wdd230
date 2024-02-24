@@ -14,7 +14,6 @@ async function getWeather(city){
     }   
     catch(err){
         console.log(err);
-        alert("Error in Weather APP")
     }
 }
 
