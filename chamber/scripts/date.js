@@ -1,14 +1,5 @@
-//  getting current date
-const date = new Date();
-// getting the current month
-let currentMonth = date.getMonth();
-// getting the current year
-let currentYear = date.getFullYear()
-
-
-  
 function feedbackMessage() {
-    const messageBox = document.querySelector('.message-box');
+    const messageBox = document.querySelector('#message-box');
   
     const welcomeMsg = `<p>Welcome! Let us know if you have any questions.</p>`;
     const welcomeBack = `<p>Back so soon! Awesome!</p>`
