@@ -16,6 +16,7 @@
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/base.css">
     <link rel="stylesheet" href="styles/larger.css">
+    <link rel="stylesheet" href="styles/form.css">
       <!--  Essential META Tags -->
     <meta property="og:title" content="Lizandro Vivanco | Home">
     <meta property="og:type" content="website" />
@@ -49,52 +50,42 @@
     </nav>
 
     <main>
-        <div class="hero">
-            <div class="text">
-                <p>Campinas Temple, Brazil</p>
-            </div>
-            <picture>
-                <source media="(min-width: 560px)" srcset="images/hero-large.webp">
-                <img src="images/hero-small.webp" alt="temple">
-            </picture>
-        </div>
-        <h2>WDD 230: Web Frontend Development</h2>
-        <hr>
-        <section class="card" id="activities">
-            <h3>Learning Activities</h3>
-            <ol>
-                <li><a href="lesson01/holygrail.html" >Lesson 01</a></li>
-                <li><a href="lesson02/design.html" target="_blank">Lesson 02</a></li>
-                <li><a href="lesson02/design-principles.html" target="_blank">Design Principles</a></li>
-                <li><a href="images/CSS_Combinators.png" target="_blank">CSS w3schools.com combinator exercise</a></li>
-                <li><a href="https://codepen.io/LizandroV/pen/MWxOQMW?editors=1100" target="_blank">CSS Psuedo Elements</a></li>
-                <li><a href="https://codepen.io/LizandroV/pen/VwRrgNz" target="_blank">Responsive 'Hamburger Menu'</a></li>
-                <li><a href="lesson05/bom.html">Favorite Chapter</a></li>
-                <li><a href="https://codepen.io/LizandroV/pen/gOEQgVO?editors=1100">Pseudo-class Fun</a></li>
-                <li><a href="images/landscape.webp">WebP</a></li>
-                <li><a href="lesson06/responsive-images.html">Responsive Images</a></li>
-                <li><a href="lesson07/lazyload.html">Lazy Load Images</a></li>
-                <li><a href="BOM/bom.html">Book of Mormon</a></li>
-            </ol>
-        </section>
-        <section class="card" id="information">
-            <h3>Information</h3>
-            <p>Lima, Peru</p>
-            <p>⛅22°C - Cloudy</p>
-            <p> Page Visits: <span id="visits">0</span></p>
-        </section>
 
-        <div class="card" id="gmaps">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d15611.927019149032!2d-76.7786953099457!3d-11.97576420355742!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2spe!4v1706375321260!5m2!1ses-419!2spe" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-        </div>
+        <form id="myForm">
+            <div>
+              <label for="username">Username:</label>
+              <input type="text" id="username" name="username" required>
+            </div>
+            <div>
+              <label for="password">Password:</label>
+              <input type="password" id="password" name="password" required pattern="^(?=.*[a-zA-Z])(?=.*\d).{8,}$">
+            </div>
+            <div>
+              <label for="confirmPassword">Confirm Password:</label>
+              <input type="password" id="confirmPassword" name="confirmPassword" required>
+              <span id="passwordError" class="error-message"></span>
+            </div>
+            <div>
+              <label for="email">Email:</label>
+              <input type="email" id="email" name="email" required pattern="[a-zA-Z0-9._%+-]+@byui\.edu" title="A valid byui.edu email address.">
+            </div>
+            <div>
+              <label for="pageRating">Page Rating:</label>
+              <input type="range" id="pageRating" name="pageRating" min="1" max="10" step="1" oninput="showRating()">
+              <span id="ratingValue">5</span>
+            </div>
+            <button type="submit">Submit</button>
+          </form>
+
+
     </main>
 
     <footer>
         <p>&copy; <span id="copyrightYear"></span> <br> Lizandro Vivanco <br> Peru 🏳️</p>
         <p id="mod">Last Modification: <span id="modified">Today</span></p>
     </footer>
-    <script src="scripts/getdates.js"></script>
     <script src="scripts/hamburgerMenu.js"></script>
-    <script src="scripts/visitsCounter.js"></script>
+    <script src="scripts/getdates.js"></script>
+    <script src="scripts/form.js"></script>
 </body>
 </html>
