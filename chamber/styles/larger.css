@@ -145,7 +145,15 @@
         justify-content: start;
         align-items: start;
     }
+
+    .joinpage{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
     
+    .title{
+        grid-column: 1/3;
+    }
 }
 
 
