@@ -5,9 +5,11 @@
   }
   
   form {
+    display: 	flex;
+    flex-direction: column;
     border-radius: 8px;
     padding: 70px;
-    width: 350px;
+    width: 300px;
   }
   
   form > div {
@@ -27,7 +29,7 @@
     width: 100%;
     padding: 10px;
     border: 1px solid #ccc;
-    border-radius: 5px;
+    border-radius: 8px;
     box-sizing: border-box;
   }
   
@@ -39,7 +41,7 @@
     background-color: var(--primary-color);
     color: #fff;
     border: none;
-    border-radius: 5px;
+    border-radius: 8px;
     padding: 10px 20px;
     cursor: pointer;
     transition: background-color 0.3s;
@@ -47,5 +49,13 @@
   
   button:hover {
     background-color: #0056b3;
+  }
+
+  form div input:required{
+    border-left: solid 5px red;
+  }
+
+  form div input:required:valid{
+    border-left: solid 5px green;
   }
   
