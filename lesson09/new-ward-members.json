@@ -1,0 +1,30 @@
+{
+    "wardInformation": {
+    "familyName": "Vivanco",
+    "moveInDate": "2010-04-01",
+    "numberOfPeople": 4,
+    "visitedByBishopric": true,
+    "familyMembers": [
+      {
+        "name": "Rosa Casamona",
+        "gender": "Female",
+        "birthdate": "1971-02-19"
+      },
+      {
+        "name": "Lizandro Vivanco",
+        "gender": "Male",
+        "birthdate": "1997-11-23"
+      },
+      {
+        "name": "Enrique Vivanco",
+        "gender": "Male",
+        "birthdate": "1999-11-17"
+      },
+      {
+        "name": "Carina Vivanco",
+        "gender": "Female",
+        "birthdate": "1991-11-28"
+      }
+    ]
+    }
+  }
