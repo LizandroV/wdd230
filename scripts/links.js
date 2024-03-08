@@ -1,26 +1,34 @@
+'use strict';
+
 const baseURL = "https://lizandrov.github.io/wdd230/";
 const linksURL = "https://lizandrov.github.io/wdd230/data/links.json";
 
-const activities = document.querySelector("#learning");
+const linkBox = document.getElementById('link-box');
 
-async function getLinks() {
-    const response = await fetch(linksURL);
+const getLinks = async function() {
+    const response = await fetch(linksUrl);
     const data = await response.json();
-    console.log(data)
-    displayLinks(data);
+    // console.log(data);
+    displayLinks(data.lessons);
 }
 
-const displayLinks = (weeks) => {
-    weeks.forEach((week) => {
-        // Create elements to add to the div.cards element
-        let list = document.createElement('li');
+const displayLinks = function(data) {
+    for (let index = 0; index < data.length; index++) {
+        let listEl = document.createElement('li');
 
-        // Build the h2 content out to show the prophet's full name
-        list.textContent = `${week.lesson}`;
+        listEl.innerHTML = `${data[index].lesson}: `;
+        data[index].links.forEach((link, i) => {
+            let linkEl = document.createElement('a');
+            linkEl.href = link.url;
+            linkEl.title = link.title;
+            linkEl.innerHTML = link.title;
+            linkEl.target = '_blank';
 
-        // Append the section(card) with the created elements
-        activities.appendChild(list);
-    });
-}
+            listEl.appendChild(linkEl)
+        });
+
+        linkBox.appendChild(listEl);
+    }
+};
 
 getLinks();

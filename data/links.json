@@ -1,7 +1,7 @@
 {
-    "lessons": [
+    "weeks": [
     {
-        "lesson": "02",
+        "week": "02",
         "links": [
         {
             "url":"lesson02/media-query.html",
@@ -14,7 +14,7 @@
         ]
     },
     {
-        "lesson": "03",
+        "week": "03",
         "links": [
         {
             "url":"lesson03/chamber-site-plan.html",
@@ -27,7 +27,7 @@
         ]
     },
     {
-        "lesson": "04",
+        "week": "04",
         "links": [
         {
             "url":"https://codepen.io/LizandroV/pen/MWxOQMW?editors=1100",
@@ -40,7 +40,7 @@
         ]
     },
     {
-        "lesson": "05",
+        "week": "05",
         "links": [
         {
             "url":"lesson05/bom.html",
@@ -53,7 +53,7 @@
         ]
     },
     {
-        "lesson": "06",
+        "week": "06",
         "links": [
         {
             "url":"images/landscape.webp",
@@ -66,7 +66,7 @@
         ]
     },
     {
-        "lesson": "07",
+        "week": "07",
         "links": [
         {
             "url":"lesson07/lazyload.html",
@@ -79,7 +79,7 @@
         ]
     },
     {
-        "lesson": "08",
+        "week": "08",
         "links": [
         {
             "url":"lesson08/tablebuild.html",
@@ -92,7 +92,7 @@
         ]
     },
     {
-        "lesson": "09",
+        "week": "09",
         "links": [
         {
             "url":"./lesson09/new-ward-members.json",
