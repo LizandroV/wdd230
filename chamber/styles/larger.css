@@ -161,7 +161,7 @@
     }
     
     .list .member-card {
-        gap: 3rem;
+        gap: 0rem;
     }
     
     .list .member-card .member-info-box {
@@ -170,7 +170,7 @@
     
     .grid {
         display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
         gap: 2.5rem;
     }
 }
