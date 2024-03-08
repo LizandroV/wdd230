@@ -1,7 +1,16 @@
 {
     "lessons": [
+        {
+            "lesson": "Week 01",
+            "links": [
+            {
+                "url":"lesson01/holygrail.html",
+                "title":"Holygrail"
+            }
+            ]
+        },
     {
-        "lesson": "02",
+        "lesson": "Week 02",
         "links": [
         {
             "url":"lesson02/media-query.html",
@@ -14,7 +23,7 @@
         ]
     },
     {
-        "lesson": "03",
+        "lesson": "Week 03",
         "links": [
         {
             "url":"lesson03/chamber-site-plan.html",
@@ -27,7 +36,7 @@
         ]
     },
     {
-        "lesson": "04",
+        "lesson": "Week 04",
         "links": [
         {
             "url":"https://codepen.io/LizandroV/pen/MWxOQMW?editors=1100",
@@ -40,7 +49,7 @@
         ]
     },
     {
-        "lesson": "05",
+        "lesson": "Week 05",
         "links": [
         {
             "url":"lesson05/bom.html",
@@ -53,7 +62,7 @@
         ]
     },
     {
-        "lesson": "06",
+        "lesson": "Week 06",
         "links": [
         {
             "url":"images/landscape.webp",
@@ -66,7 +75,7 @@
         ]
     },
     {
-        "lesson": "07",
+        "lesson": "Week 07",
         "links": [
         {
             "url":"lesson07/lazyload.html",
@@ -79,7 +88,7 @@
         ]
     },
     {
-        "lesson": "08",
+        "lesson": "Week 08",
         "links": [
         {
             "url":"lesson08/tablebuild.html",
@@ -92,7 +101,7 @@
         ]
     },
     {
-        "lesson": "09",
+        "lesson": "Week 09",
         "links": [
         {
             "url":"./lesson09/new-ward-members.json",
