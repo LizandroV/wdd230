@@ -133,9 +133,15 @@ hr{
     padding: 10px;
 }
 
-.card ol li {
-    list-style:decimal-leading-zero;
+.card ul li {
     font-family:"Rubik", sans-serif;
+    text-decoration: none;
+}
+
+main a:link,
+main a:visited {
+  display: inline-block;
+  margin-inline-end: 10px;
 }
 
 .card p{
