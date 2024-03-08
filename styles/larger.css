@@ -49,8 +49,7 @@
     }
 
     .text{
-        top: 10px;
-        left: 10px;
+        font-size: 20px;
     }
     .hero{
         grid-column: 1/3;
