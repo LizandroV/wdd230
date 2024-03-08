@@ -13,8 +13,7 @@ async function getWeather(city){
         wind.innerHTML = data.wind.speed;
     }   
     catch(err){
-        console.log(err);
-        alert("Error in Weather APP")
+        //console.log(err);
     }
 }
 
