@@ -154,6 +154,25 @@
     .title{
         grid-column: 1/3;
     }
+
+    /******DIRECTORY*******/
+    .member-card {
+        width: 100%;
+    }
+    
+    .list .member-card {
+        gap: 3rem;
+    }
+    
+    .list .member-card .member-info-box {
+        gap: 2rem;
+    }
+    
+    .grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+        gap: 2.5rem;
+    }
 }
 
 
