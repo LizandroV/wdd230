@@ -1,108 +1,113 @@
 {
     "weeks": [
-    {
-        "week": "02",
-        "links": [
         {
-            "url":"lesson02/media-query.html",
-            "title":"Media Queries"
+            "week": "Week 01",
+            "links": [
+                {
+                    "url": "https://codepen.io/KoiMonga/pen/KKbWNpZ",
+                    "title": "Codepen"
+                },
+                {
+                    "url": "https://koigor97.github.io/wdd230/week01/media-query.html",
+                    "title": "Media-Query"
+                },
+                {
+                    "url": "https://koigor97.github.io/wdd230/week01/holygrail.html",
+                    "title": "Holy Grail"
+                }
+            ]
         },
         {
-            "url":"lesson02/design-principles.html",
-            "title":"Design Principles Document"
-        }
-        ]
-    },
-    {
-        "week": "03",
-        "links": [
-        {
-            "url":"lesson03/chamber-site-plan.html",
-            "title":"Chamber Site Plan"
+            "week": "Week 02",
+            "links": [
+                {
+                    "url": "https://koigor97.github.io/wdd230/week02/design.html",
+                    "title": "Design"
+                },
+                {
+                    "url": "https://codepen.io/KoiMonga/pen/PoXJRJz",
+                    "title": "Responsive Menu"
+                },
+                {
+                    "url": "https://koigor97.github.io/wdd230/week02/bom.html",
+                    "title": "B.O.M 25"
+                },
+                {
+                    "url": "https://koigor97.github.io/wdd230/chamber/",
+                    "title": "Chamber Homepage"
+                }
+            ]
         },
         {
-            "url": "images/CSS_Combinators.png",
-            "title": "CSS combinator"
-        }
-        ]
-    },
-    {
-        "week": "04",
-        "links": [
-        {
-            "url":"https://codepen.io/LizandroV/pen/MWxOQMW?editors=1100",
-            "title":"CSS Pseudo Elements"
+            "week": "Week 03",
+            "links": [
+                {
+                    "url": "week03/images/landscape.WEBP",
+                    "title": "WebP"
+                },
+                {
+                    "url": "https://koigor97.github.io/wdd230/week03/lazyload.html",
+                    "title": "Lazy Loading"
+                },
+                {
+                    "url": "https://koigor97.github.io/wdd230/week03/responsive-images.html",
+                    "title": "srcset"
+                },
+                {
+                    "url": "https://koigor97.github.io/wdd230/week03/bom.html",
+                    "title": "localStorage"
+                },
+                {
+                    "url": "https://koigor97.github.io/wdd230/chamber/discover.html",
+                    "title": "Chamber Discover"
+                }
+            ]
         },
         {
-            "url":"https://codepen.io/LizandroV/pen/VwRrgNz",
-            "title":"Responsive Hamburguer"
-        }
-        ]
-    },
-    {
-        "week": "05",
-        "links": [
-        {
-            "url":"lesson05/bom.html",
-            "title":"BOM Favorite Chapter"
+            "week": "Week 04",
+            "links": [
+                {
+                    "url": "https://codepen.io/KoiMonga/pen/KKbxNdM",
+                    "title": "Pseudo Classes"
+                },
+                {
+                    "url": "images/combinator.webp",
+                    "title": "CSS Combinators"
+                },
+                {
+                    "url": "https://koigor97.github.io/wdd230/week04/index.html",
+                    "title": "Forms"
+                },
+                {
+                    "url": "https://koigor97.github.io/wdd230/chamber/join.html",
+                    "title": "Chamber Join"
+                }
+            ]
         },
         {
-            "url":"https://codepen.io/LizandroV/pen/gOEQgVO?editors=1100",
-            "title":"Pseudo-class Fun"
+            "week": "Week 05",
+            "links": [
+                {
+                    "url": "https://codepen.io/KoiMonga/pen/dywaOEJ",
+                    "title": "Psuedo Element"
+                },
+                {
+                    "url": "week05/new-ward-members.json",
+                    "title": "JSON"
+                },
+                {
+                    "url": "https://koigor97.github.io/wdd230/week05/prophets.html",
+                    "title": "Latter-Day Prophets"
+                },
+                {
+                    "url": "https://koigor97.github.io/wdd230/week05/weather.html",
+                    "title": "Weather API"
+                },
+                {
+                    "url": "https://koigor97.github.io/wdd230/chamber/directory.html",
+                    "title": "Chamber Directory"
+                }
+            ]
         }
-        ]
-    },
-    {
-        "week": "06",
-        "links": [
-        {
-            "url":"images/landscape.webp",
-            "title":"WebP Image"
-        },
-        {
-            "url":"lesson06/responsive-images.html",
-            "title":"Responsive Images"
-        }
-        ]
-    },
-    {
-        "week": "07",
-        "links": [
-        {
-            "url":"lesson07/lazyload.html",
-            "title":"Lazy Load Images"
-        },
-        {
-            "url":"BOM/bom.html",
-            "title":"BOM Favorite Chapter - LocalStorage"
-        }
-        ]
-    },
-    {
-        "week": "08",
-        "links": [
-        {
-            "url":"lesson08/tablebuild.html",
-            "title":"Table Structure"
-        },
-        {
-            "url":"Form-start/index.html",
-            "title":"Forms Lesson"
-        }
-        ]
-    },
-    {
-        "week": "09",
-        "links": [
-        {
-            "url":"./lesson09/new-ward-members.json",
-            "title":"JSON File"
-        },
-        {
-            "url":"./lesson09/prophets.html",
-            "title":"Prophets Page"
-        }
-        ]
-    }
-]
+    ]
 }
