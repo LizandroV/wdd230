@@ -112,6 +112,15 @@
             "title":"Prophets Page"
         }
         ]
+    },
+    {
+        "lesson": "Week 10",
+        "links": [
+        {
+            "url":"./lesson10/wheather.html",
+            "title":"Weather API"
+        }
+        ]
     }
 ]
 }
