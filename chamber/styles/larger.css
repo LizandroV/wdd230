@@ -160,14 +160,6 @@
         width: 100%;
     }
     
-    .list .member-card {
-        gap: 0rem;
-    }
-    
-    .list .member-card .member-info-box {
-        gap: 2rem;
-    }
-    
     .grid {
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
