@@ -164,3 +164,11 @@ footer{
 footer #mod{
     color: yellow;
 }
+
+figure{
+    text-align: center;
+}
+
+#outside{
+    text-transform: capitalize;
+}
