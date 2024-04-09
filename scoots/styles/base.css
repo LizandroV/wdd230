@@ -117,7 +117,8 @@ main h2{
     font-size: 30px;
     line-height: 30px;
     text-align: center;
-    padding-top: 20px;
+    padding-top: 50px;
+    margin: 0 auto;
 }
 
 /*IMAGES SLIDERS AUTO*/
@@ -165,7 +166,6 @@ main h2{
     border: none;
     cursor: pointer;
     border-radius: 5px;
-    transition: var(--primary-color) 0.3s;
 }
 .buttonBox button:hover {
     background-color: #4d0a10;
@@ -179,7 +179,6 @@ main h2{
     margin: 5px 0;
     line-height: 20PX;
     border-radius: 5px;
-    transition: var(--default-color) 0.3s ease-in-out;
     margin-bottom: 10px;
     width: 90%;
 }
@@ -326,80 +325,91 @@ tr:first-child:hover td{
     font-size: 20px;
 }
 
-/* ------------------RESERVATIONS PAGE------------------ */
-form fieldset {
 
-    border: 1pc solid #3498db;
-    border-radius: 20px;
-    padding: 0.5rem 2%;
-    max-width: 25rem;
+/* ------------------RESERVATIONS PAGE------------------ */
+#main-reservations{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+}
+
+.my-form{
+    flex-basis: 100%;
+}
+
+.rental-info{
+    flex-basis: 100%;
+}
+form{
+    display: grid;
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   }
-  form legend{
-    color: #445ba9;
-    margin: 0 1rem;
-    padding: 0.5rem;
-    
-  }
-  form label.top, form div {
+
+label{
+    font-style: italic;
+}
+
+legend{
+    font-size: 18px;
+    text-align: center;
+    font-weight: bold;
+}
+
+form input, select, textarea{
+    background-color: #eee;
     display: block;
-    padding-top: 1rem;
-    color: #9c2c13;
-    font-size: 0.8rem;
-  
-  }
-  
-  form label.top input, form label.top select{
-    display: block;
-    font-size: 1rem;
     border: solid 1px #999;
-    border-radius: 4px;
-    padding: 0.75rem;
+    border-radius: 8px;
+    padding: .75rem;
     color: #555;
     width: 100%;
-    max-width: 25rem;
-    background-color: rgba(0, 0, 0, 0.1);
-  }
-  form label.sbs{
-    display: block;
-    padding: 0.75rem 0;
-    color: #555;
-  }
-  
-  form input.submitBtn{
-    border: none;
-    background-color: #4CAF50;
-    color: white;
-    border-radius: 1rem;
-    padding: 0.75rem 1.5rem;
-    margin: 5px 0 2rem 2%;
-    width: 96%;
-    max-width: 20rem;
-    justify-content: center;
-  }
-  form label.top input:required{
-    border-left: red solid 6px;
-  }
-  form label.top input:required:valid {
-    border-left: green solid 6px;
-  }
-
-  #reservations-title{
-    text-align: center;
-  }
-
-  .styled-list2 li {
-    background-color: #b7bcc0;
-    color: #000000;
-    padding: 10px;
-    margin: 5px 5px;
-    border-radius: 5px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    transition: background-color 0.3s ease-in-out;
+    max-width: 400px;
+    appearance: none;
     margin-bottom: 10px;
+}
+
+input[type="submit"]{
+    border: none;
+    background-image: linear-gradient(var(--primary-color), #742c2c);
+    color: var(--secondary-color);
+    border-radius: 6px;
+    padding: .8rem;
+    width: 96%;
+    max-width: 400px;
+    margin: 1rem 2% .2rem 2%;
+    box-shadow: 1px 1px 4px #999;
+    cursor: pointer;
+}
+
+form input:required{
+    border-left: solid 8px red;
+}
+
+form input:required:valid{
+    border-left: solid 8px green;
+}
+
+#reservations-title{
+    text-align: center;
+    margin-top: 30px;
+    padding: 20px;
+}
+
+.styled-list2 li {
+    background-color: var(--default-color);
+    color: var(--secondary-color);
+    padding: 10px;
+    margin: 15px auto;
+    border-radius: 5px;
     max-width: 25rem;
     list-style-type: none;
-  
-  }
+
+}
 /* -------------------BANER--------------------------- */
 .banner {
     background-color: var(--dark-mode);
@@ -408,7 +418,7 @@ form fieldset {
     padding: 25px;
     font-size: 20px;
     position: fixed;
-    bottom: 15px;
+    top: 0;
     left: 0;
     width: 67%;
     display: none;
@@ -426,6 +436,17 @@ form fieldset {
     padding: 5px 10px;
     cursor: pointer;
 }
+
+/*---------------------------- CONTACT-------------------------- */
+#contact-info{
+    text-align: center;
+}
+
+.gmaps{
+    text-align: center;
+    max-width: 100%;
+}
+
 /* ----------------THANKS PAGE-------------------*/
 #thanks p{
     text-align: center;
@@ -518,6 +539,35 @@ form fieldset {
         display: flex;
         flex-direction: row;
         justify-content: space-around;
+    }
+    /* RESERVATIONS */
+    #main-reservations{
+        display: flex;
+        flex-direction: row;
+        align-content: center;
+        justify-content: center;
+    }
+    
+    .my-form{
+        flex-basis: 50%;
+    }
+    
+    .rental-info{
+        flex-basis: 50%;
+    }
+
+    #contact-index{
+        display: flex;
+        flex-direction: row;
+    }
+
+    #contact-info{
+        flex-basis: 40%;
+    }
+
+    .gmaps{
+        margin-top: 5rem;
+        flex-basis: 60%;
     }
 }
 

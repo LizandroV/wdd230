@@ -18,12 +18,8 @@
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/base.css">
     <!-- FONTS -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&
-    display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" 
-    rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Lemon&family=Permanent+Marker&display=swap" rel="stylesheet">
     <!--  Essential META Tags -->
     <meta property="og:title" content="Scoots | Rent Page">
@@ -54,19 +50,18 @@
     </nav>
      <main>
         <div id="banner" class="banner">
-            <p><b>Exclusive Weekday Offer:</b> Unlock Your Discount! <br>Dive into the excitement from Monday to Friday and enjoy special savings on your scooter rental. Don't miss out – book now and elevate your Cozumel adventure!</p>
+            <p><b>Todays max temp:</b> <span id="max-temp"></span>.</p>
             <button id="closeBanner">Close</button>
         </div>
         <section id="hero">
             <div class="hero-text">
                 <h2 class="home-title">Welcome to Cozumel Scooter Rentals!</h2>
-                <p class="home-welcome">
-                    Your gateway to exploring the breathtaking beauty of Cozumel on two wheels! Nestled in the heart of the western Caribbean Sea, our family-owned rental company is dedicated to providing locals and visitors alike with the freedom to traverse this enchanting island at their own pace. Whether you're a thrill-seeking enthusiast or a curious traveler, our fleet of motor scooters promises an exhilarating adventure through Cozumel's vibrant streets and scenic coastal roads. Join us today and embark on an unforgettable journey filled with sun, sea, and endless exploration! Hit the road with us by clicking the join button below. 🛵🌴🌊</p>
+                <p class="home-welcome">Your gateway to exploring the breathtaking beauty of Cozumel on two wheels! Nestled in the heart of the western Caribbean Sea, our family-owned rental company is dedicated to providing locals and visitors alike with the freedom to traverse this enchanting island at their own pace. Whether you're a thrill-seeking enthusiast or a curious traveler, our fleet of motor scooters promises an exhilarating adventure through Cozumel's vibrant streets and scenic coastal roads. Join us today and embark on an unforgettable journey filled with sun, sea, and endless exploration! Hit the road with us by clicking the join button below. 🛵🌴🌊</p>
             </div>
 
             <div class="contentBox">
                 <div id="join" class="buttonBox">
-                    <button onclick="location.href='contact.html'">Contact</button>
+                    <button onclick="location.href='reservations.html'">Reserve today!</button>
                 </div>
             </div>
 
@@ -109,7 +104,7 @@
             </aside>
             <div id="rental-types">
                 <h2 class="rental-types-tag">Rental types summary</h2>
-                <h3 class="rental-types-tag">Scooters</h2>
+                <h2 class="rental-types-tag">Scooters</h2>
                     <div>
                         <p>Honda Metropolitan</p>
                         <p>49cc</p>
@@ -169,7 +164,7 @@
                 <h4>Today</h4>
                 <h4><span id="current-temp"></span> </h4>
                 <figure>
-                    <img id="weather-icon" alt="Weather Icon">
+                    <img id="weather-icon" src="images" alt="Weather Icon">
                     <figcaption id="fig1" class="weather-fig-captions"></figcaption>
                 </figure>
                 <h5>Humidity</h5>
@@ -180,7 +175,7 @@
                 <h4><span id="forecast-day-1"></span> </h4>
                 <h4><span id="forecast-temp-1"></span> </h4>
                 <figure>
-                    <img id="weather-icon1" class="w-icon" alt="weather icon">
+                    <img id="weather-icon1" src="images" class="w-icon" alt="weather icon">
                     <figcaption id="fig3" class="weather-fig-captions"></figcaption>
                 </figure>
             </div>

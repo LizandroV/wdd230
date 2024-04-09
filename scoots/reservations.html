@@ -18,12 +18,8 @@
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/base.css">
     <!-- FONTS -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&
-    display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" 
-    rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Lemon&family=Permanent+Marker&display=swap" rel="stylesheet">
     <!--  Essential META Tags -->
     <meta property="og:title" content="Scoots | Rent Page">
@@ -52,21 +48,20 @@
         <a href="./reservations.html">Reservations</a>
         <a href="./contact.html">Contact</a>
     </nav>
-    <main id="main-index">
+    <main id="main-reservations">
+        <div class="my-form">
         <form method="get" action="thanks.html">
             <fieldset>
                 <legend>Personal Information</legend>
-                <label class="top"> Name*<input type="text" name="rdate" required></label>
-                <label class="top"> Phone*<input type="tel" name="Phone" placeholder="(81) 1234-56-78" required></label>
-
-                <label class="top"> email*<input type="email" name="email" required placeholder="hello@company.com"></label>
+                <label class="top"> Name*<input type="text" name="rdate" required autofocus></label>
+                <label class="top"> Phone*<input type="tel" name="Phone" placeholder="(32) 1234-56-78" required></label>
+                <label class="top"> Email*<input type="email" name="email" required placeholder="hello@company.com"></label>
                 <label class="top"> Home State or Country*<input type="text" name="country" required></label>
-
                 <label class="top"> Cruise Line<input type="text" name="cruiseLine"></label>
             </fieldset>
             <fieldset>
                 <legend>Reservation</legend>
-                <label class="top"> Reserve Date*<input type="date" name="rdate" required></label>
+                <label class="top"> Reservation Date*<input type="date" name="rdate" required></label>
                 <label class="top"> Period*<input type="text" name="period" required></label>
                 <label class="top"> Rental Type*<input type="text" name="rType" required></label>
             </fieldset>
@@ -75,9 +70,10 @@
                 <label class="top"> Special/Accommodations<input type="text" name="cruiseLine"
                         placeholder="ex. location of a drop-off request"></label>
             </fieldset>
-            <input type="submit" value="Join Us" class="submitBtn">
+            <input type="submit" value="Reserve Now!" class="submitBtn">
             </form>
-        <div>
+        </div>
+        <div class="rental-info">
             <h2 id="reservations-title">Rental agreement information</h2>
             <ul class="styled-list2">
                 <li>A $50 security deposit is required to confirm reservations.</li>
