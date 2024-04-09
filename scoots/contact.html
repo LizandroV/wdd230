@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scoots | Have Fun!</title>
+    <meta name="description" content="Get the best scooters at the best prices in Cozumel">
+    <meta name="author" content="Lizandro Vivanco">
+    <!--  FAVICON -->
+    <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+    <link rel="manifest" href="images/site.webmanifest">
+    <link rel="mask-icon" href="images/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    <!--  CSS STYLES -->
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <!-- FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&
+    display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" 
+    rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lemon&family=Permanent+Marker&display=swap" rel="stylesheet">
+    <!--  Essential META Tags -->
+    <meta property="og:title" content="Scoots | Rent Page">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://static.eldiario.es/clip/26fcecb6-cf06-4d99-9f05-93ca7a378c10_16-9-discover-aspect-ratio_default_0.jpg">
+    <meta property="og:url" content="https://lizandrov.github.io/wdd230/scoots/index.html">
+    <meta name="twitter:card" content="summary_large_image">
+    <!--  Non-Essential, But Recommended -->
+    <meta property="og:description" content="Scoots Page for rental">
+    <meta property="og:site_name" content="Lizandro Vivanco">
+    <meta name="twitter:image:alt" content="Image of Cozumel, Mexico">
+    <!--  Non-Essential, But Required for Analytics -->
+    <meta property="fb:app_id" content="Lizandro_Vivanco">
+    <meta name="twitter:site" content="@LizandroV">
+</head>
+<body>
+    <header>
+        <h1>Scoots | Motor Scooter Rental Company </h1>
+        <div id="mode" title="Dark Mode">🔳</div>
+        <a href="./index.html"><img src="images/logo.webp" alt="Logo"></a>
+        <button id="menu"></button>
+    </header>
+    <nav class="navigation">
+        <a href="./index.html">Home</a>
+        <a href="./rentals.html">Rental</a>
+        <a href="./reservations.html">Reservations</a>
+        <a href="./contact.html">Contact</a>
+    </nav>
+    <main id="main-index">
+        <div id="contact-info1">
+            <h2>Contact us!</h2>
+            <p>Phone: +52 987-555-1234 </p>
+            
+            <p>contact@scoots.com.mx</p>
+            
+            <p>Operating Hours:</p>
+            <p>Monday to Saturday: 9:00 AM - 9:00 PM</p>
+
+        </div>
+        <form method="get" action="thank-you1.html">
+            <fieldset>
+                <legend>Contact us!</legend>
+                <label class="top"> Name*<input type="text" name="rdate" required></label>
+                <label class="top"> email*<input type="email" name="email" required placeholder="hello@company.com"></label>
+                <label class="top"> Comment*<input type="text" name="country" required></label>
+            </fieldset>
+        </form>
+        <div class="google-map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d239293.76244058926!2d-87.0284159!3d20.4255199!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f4ef8efb0d19327%3A0x342ebcae5c018bfc!2sCozumel!5e0!3m2!1ses-419!2spe!4v1712633005989!5m2!1ses-419!2spe" 
+            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </main>
+    <footer>
+        <div id="info">
+        <p>&copy; <span id="copyrightYear"></span> Scoots | Cozumel, México.</p>
+        <p id="mod">Last Modification: <span id="modified">Today</span></p>
+        </div>
+        <div class="social">
+            <a href="https://www.facebook.com/lizandro.vivanco.1251" target="_blank">
+                <img src="images/facebook.webp" alt="Facebook icon">
+            </a>
+            <a href="https://www.instagram.com/lizandrov16/" target="_blank">
+                <img src="images/instagram.webp" alt="Instagram icon">
+            </a>
+            <a href="https://github.com/LizandroV" target="_blank">
+                <img src="images/Github.webp" alt="Github icon">
+            </a>
+            <a href="https://www.linkedin.com/in/lvivanco16/?locale=en_US" target="_blank">
+                <img src="images/LinkedIn.webp" alt="Linkedin icon">
+            </a>
+        </div>
+    </footer>
+    <script src="scripts/getdates.js"></script>
+    <script src="scripts/hamburgerMenu.js"></script>
+    <script src="scripts/slide.js"></script>
+    <script src="scripts/darkmode.js"></script>
+</body>
+</html>

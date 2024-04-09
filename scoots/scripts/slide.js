@@ -18,7 +18,8 @@ document.addEventListener('DOMContentLoaded', function() {
   var currentDay = currentDate.getDay(); // 0 is Sunday, 1 is Monday, and so on.
 
   // Show the banner only on Mondays, Tuesdays, and Wednesdays
-  if (currentDay >= 1 && currentDay <= 3) {
+  // if (currentDay >= 1 && currentDay <= 3) {
+  if (currentDay >= 1){
       var banner = document.getElementById('banner');
       banner.style.display = 'block';
   }

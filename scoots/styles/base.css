@@ -60,7 +60,7 @@ header h1{
     height: 30px;
 	color:var(--secondary-color);
     position: relative;
-	left: 6rem;
+	left: 5rem;
     top: 0.7rem;
     cursor: pointer;
 }
@@ -109,7 +109,6 @@ header h1{
 
 .hero-text{
     padding: 30px;
-    text-align: justify;
     line-height: 22px;
 }
 
@@ -150,7 +149,6 @@ main h2{
 /*START BUTTON*/
 .contentBox {
     text-align: center;
-    z-index: 1;
 }
 
 .buttonBox {
@@ -224,6 +222,12 @@ main h2{
     justify-content: center;
 }
 
+#rental-types p{
+    padding-left: 25px;
+    line-height: 5px;
+    text-transform: capitalize;
+}
+
 /* WEATHER */
 #weather{
     display: grid;
@@ -289,7 +293,146 @@ footer #mod{
     color: yellow;
 }
 
+/* ----------------RENTALS PAGE-------------------*/
+#table{
+    border-collapse: collapse;
+    width: 100%;
+    max-width: 1000px;
+    padding: 20px;
+    margin: 20px auto;
+}
+  
+td{
+    border: 2px solid var(--default-color);
+    padding: 10px;
+    text-align: left;
+}
 
+tr:first-child{
+    background: var(--default-color);
+    font-weight: bold;
+    font-size: 20px;
+}
+
+tr:hover td,
+tr:hover td .far{
+    background-color: var(--tertiary-color);
+    font-weight: bold;
+}
+
+tr:first-child:hover td{
+    background: var(--default-color);
+    font-weight: bold;
+    font-size: 20px;
+}
+
+/* ------------------RESERVATIONS PAGE------------------ */
+form fieldset {
+
+    border: 1pc solid #3498db;
+    border-radius: 20px;
+    padding: 0.5rem 2%;
+    max-width: 25rem;
+  }
+  form legend{
+    color: #445ba9;
+    margin: 0 1rem;
+    padding: 0.5rem;
+    
+  }
+  form label.top, form div {
+    display: block;
+    padding-top: 1rem;
+    color: #9c2c13;
+    font-size: 0.8rem;
+  
+  }
+  
+  form label.top input, form label.top select{
+    display: block;
+    font-size: 1rem;
+    border: solid 1px #999;
+    border-radius: 4px;
+    padding: 0.75rem;
+    color: #555;
+    width: 100%;
+    max-width: 25rem;
+    background-color: rgba(0, 0, 0, 0.1);
+  }
+  form label.sbs{
+    display: block;
+    padding: 0.75rem 0;
+    color: #555;
+  }
+  
+  form input.submitBtn{
+    border: none;
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 1rem;
+    padding: 0.75rem 1.5rem;
+    margin: 5px 0 2rem 2%;
+    width: 96%;
+    max-width: 20rem;
+    justify-content: center;
+  }
+  form label.top input:required{
+    border-left: red solid 6px;
+  }
+  form label.top input:required:valid {
+    border-left: green solid 6px;
+  }
+
+  #reservations-title{
+    text-align: center;
+  }
+
+  .styled-list2 li {
+    background-color: #b7bcc0;
+    color: #000000;
+    padding: 10px;
+    margin: 5px 5px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease-in-out;
+    margin-bottom: 10px;
+    max-width: 25rem;
+    list-style-type: none;
+  
+  }
+/* -------------------BANER--------------------------- */
+.banner {
+    background-color: var(--dark-mode);
+    color: var(--secondary-color);
+    text-align: center;
+    padding: 25px;
+    font-size: 20px;
+    position: fixed;
+    bottom: 15px;
+    left: 0;
+    width: 67%;
+    display: none;
+    margin-left: 16.5%;
+    margin-top: 1px;
+    z-index: 1;
+}
+
+#closeBanner {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    border: none;
+    text-align: center;
+    font-size: 22px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+/* ----------------THANKS PAGE-------------------*/
+#thanks p{
+    text-align: center;
+}
+.small{
+    font-size: 14px;
+}
 /* FIX HAMBURGER BUTTON */
 @media screen and (min-width: 550px) {
     #menu {
