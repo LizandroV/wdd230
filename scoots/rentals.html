@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scoots | Have Fun!</title>
+    <meta name="description" content="Get the best scooters at the best prices in Cozumel">
+    <meta name="author" content="Lizandro Vivanco">
+    <!--  FAVICON -->
+    <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+    <link rel="manifest" href="images/site.webmanifest">
+    <link rel="mask-icon" href="images/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    <!--  CSS STYLES -->
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <!-- FONTS -->
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lemon&family=Permanent+Marker&display=swap" rel="stylesheet">
+    <!--  Essential META Tags -->
+    <meta property="og:title" content="Scoots | Rent Page">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://static.eldiario.es/clip/26fcecb6-cf06-4d99-9f05-93ca7a378c10_16-9-discover-aspect-ratio_default_0.jpg">
+    <meta property="og:url" content="https://lizandrov.github.io/wdd230/scoots/index.html">
+    <meta name="twitter:card" content="summary_large_image">
+    <!--  Non-Essential, But Recommended -->
+    <meta property="og:description" content="Scoots Page for rental">
+    <meta property="og:site_name" content="Lizandro Vivanco">
+    <meta name="twitter:image:alt" content="Image of Cozumel, Mexico">
+    <!--  Non-Essential, But Required for Analytics -->
+    <meta property="fb:app_id" content="Lizandro_Vivanco">
+    <meta name="twitter:site" content="@LizandroV">
+</head>
+<body>
+    <header>
+        <h1>Scoots | Motor Scooter Rental Company </h1>
+        <div id="mode" title="Dark Mode">🔳</div>
+        <a href="./index.html"><img src="images/logo.webp" alt="Logo"></a>
+        <button id="menu"></button>
+    </header>
+    <nav class="navigation">
+        <a href="./index.html">Home</a>
+        <a href="./rentals.html">Rental</a>
+        <a href="./reservations.html">Reservations</a>
+        <a href="./contact.html">Contact</a>
+    </nav>
+    <main class="rentals">
+        <h2>You can save up to 20% with upfront reservation!</h2>
+        <div class="contentBox">
+            <div id="join" class="buttonBox">
+                <button onclick="location.href='reservations.html'">Reserve today!</button>
+            </div>
+        </div>
+        <br>
+        <div id="table"></div>
+        <br>
+    </main>
+    <footer>
+        <div id="info">
+        <p>&copy; <span id="copyrightYear"></span> Scoots | Cozumel, México.</p>
+        <p id="mod">Last Modification: <span id="modified">Today</span></p>
+        </div>
+        <div class="social">
+            <a href="https://www.facebook.com/lizandro.vivanco.1251" target="_blank">
+                <img src="images/facebook.webp" alt="Facebook icon">
+            </a>
+            <a href="https://www.instagram.com/lizandrov16/" target="_blank">
+                <img src="images/instagram.webp" alt="Instagram icon">
+            </a>
+            <a href="https://github.com/LizandroV" target="_blank">
+                <img src="images/Github.webp" alt="Github icon">
+            </a>
+            <a href="https://www.linkedin.com/in/lvivanco16/?locale=en_US" target="_blank">
+                <img src="images/LinkedIn.webp" alt="Linkedin icon">
+            </a>
+        </div>
+    </footer>
+    <script src="scripts/vehicles.js"></script>
+    <script src="scripts/getdates.js"></script>
+    <script src="scripts/hamburgerMenu.js"></script>
+    <script src="scripts/slide.js"></script>
+    <script src="scripts/darkmode.js"></script>
+</body>
+</html>

@@ -136,11 +136,11 @@ header h1{
 	font-weight: 700;
 }
 
-/*END HAMBURGER MENU*/
 .open a {
 	display: block;
 }
 
+/*END HAMBURGER MENU*/
 #hero{
     display: grid;
     grid-template-columns: 1fr 1fr;

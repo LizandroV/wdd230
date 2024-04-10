@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scoots | Have Fun!</title>
+    <meta name="description" content="Get the best scooters at the best prices in Cozumel">
+    <meta name="author" content="Lizandro Vivanco">
+    <!--  FAVICON -->
+    <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+    <link rel="manifest" href="images/site.webmanifest">
+    <link rel="mask-icon" href="images/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    <!--  CSS STYLES -->
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <!-- FONTS -->
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lemon&family=Permanent+Marker&display=swap" rel="stylesheet">
+    <!--  Essential META Tags -->
+    <meta property="og:title" content="Scoots | Rent Page">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://static.eldiario.es/clip/26fcecb6-cf06-4d99-9f05-93ca7a378c10_16-9-discover-aspect-ratio_default_0.jpg">
+    <meta property="og:url" content="https://lizandrov.github.io/wdd230/scoots/index.html">
+    <meta name="twitter:card" content="summary_large_image">
+    <!--  Non-Essential, But Recommended -->
+    <meta property="og:description" content="Scoots Page for rental">
+    <meta property="og:site_name" content="Lizandro Vivanco">
+    <meta name="twitter:image:alt" content="Image of Cozumel, Mexico">
+    <!--  Non-Essential, But Required for Analytics -->
+    <meta property="fb:app_id" content="Lizandro_Vivanco">
+    <meta name="twitter:site" content="@LizandroV">
+</head>
+<body>
+    <header>
+        <h1>Scoots | Motor Scooter Rental Company </h1>
+        <div id="mode" title="Dark Mode">🔳</div>
+        <a href="./index.html"><img src="images/logo.webp" alt="Logo"></a>
+        <button id="menu"></button>
+    </header>
+    <nav class="navigation">
+        <a href="./index.html">Home</a>
+        <a href="./rentals.html">Rental</a>
+        <a href="./reservations.html">Reservations</a>
+        <a href="./contact.html">Contact</a>
+    </nav>
+     <main>
+        <div id="banner" class="banner">
+            <p><b>Todays max temp:</b> <span id="max-temp"></span>.</p>
+            <button id="closeBanner">Close</button>
+        </div>
+        <section id="hero">
+            <div class="hero-text">
+                <h2 class="home-title">Welcome to Cozumel Scooter Rentals!</h2>
+                <p class="home-welcome">Your gateway to exploring the breathtaking beauty of Cozumel on two wheels! Nestled in the heart of the western Caribbean Sea, our family-owned rental company is dedicated to providing locals and visitors alike with the freedom to traverse this enchanting island at their own pace. Whether you're a thrill-seeking enthusiast or a curious traveler, our fleet of motor scooters promises an exhilarating adventure through Cozumel's vibrant streets and scenic coastal roads. Join us today and embark on an unforgettable journey filled with sun, sea, and endless exploration! Hit the road with us by clicking the join button below. 🛵🌴🌊</p>
+            </div>
+
+            <div class="contentBox">
+                <div id="join" class="buttonBox">
+                    <button onclick="location.href='reservations.html'">Reserve today!</button>
+                </div>
+            </div>
+
+            <!-- Slideshow container -->
+            <div class="slideshow-container">
+                <div class="mySlides fade">
+                    <div class="numbertext"></div>
+                    <img src="images/hero-1.webp" alt="image1" style="width:100%">
+                    <div class="text"></div>
+                </div>
+        
+                <div class="mySlides fade">
+                    <div class="numbertext"></div>
+                    <img src="images/hero-2.webp" alt="image2" style="width:100%">
+                    <div class="text"></div>
+                </div>
+            
+                <div class="mySlides fade">
+                    <div class="numbertext"></div>
+                    <img src="images/hero-3.webp" alt="image3" style="width:100%">
+                    <div class="text"></div>
+                </div>
+            </div>
+        </section>
+        <div class="info">
+            <aside id="company">
+                <h4>🌴 Explore Cozumel in Style with Scoots! 🛵🌊</h4>
+                <ul class="styled-list">
+                    <li>Discover the vibrant charm of Cozumel like never before with Scoots! Cruise through sun-kissed streets, embrace the salty breeze, and immerse yourself in the island's rich culture. With Scoots by your side, your journey becomes an unforgettable adventure filled with freedom, fun, and unforgettable memories. Let's ride!</li>
+                </ul>
+                <h4>🌟 Why Scoots?</h4>
+                <ul class="styled-list">
+                    <li>🔋 <b>Efficiency:</b> Scoots provide a convenient and efficient mode of transportation, allowing you to navigate Cozumel's narrow streets and explore hidden gems with ease.</li>
+                    <li>🛵 <b>Freedom:</b> With Scoots, you have the freedom to create your own itinerary and explore Cozumel at your own pace, stopping whenever and wherever you desire to soak in the island's beauty.</li>
+                    <li>🍃 <b>Environmental Friendliness:</b> Opting for Scoots demonstrates your commitment to sustainable travel practices, as these motor scooters are eco-friendly alternatives to traditional gas-guzzling vehicles.
+                    </li>
+                    <li>🌴 <b>Local Experience:</b> Riding a Scoot immerses you in the local culture, providing a more authentic and immersive experience compared to being confined within a tour bus. Connect with the island and its people as you cruise along its scenic roads.
+                    </li>
+                </ul>
+            </aside>
+            <div id="rental-types">
+                <h2 class="rental-types-tag">Rental types summary</h2>
+                <h2 class="rental-types-tag">Scooters</h2>
+                    <div>
+                        <p>Honda Metropolitan</p>
+                        <p>49cc</p>
+                        <p>1 person</p>
+                    </div>
+                    <div>
+                        <img src="images/honda-metropolitan.webp" alt="Honda-Metropolitan" loading="lazy">
+                    </div>
+                    <div>
+                        <p>Honda Dio</p>
+                        <p>110cc</p>
+                        <p>2 person</p>
+                    </div>
+                    <div>
+                        <img src="images/Honda-DIO.webp" alt="Honda-Metropolitan" loading="lazy">
+                    </div>
+                    <div>
+                        <p>Honda PCX150</p>
+                        <p>149cc</p>
+                        <p>2 person</p>
+                    </div>
+                    <div>
+                        <img src="images/honda-pcx150.webp" alt="Honda-Metropolitan" loading="lazy">
+                    </div>
+                    <h3 class="rental-types-tag">ATVs</h3>
+
+                    <div>
+                        <p>Honda Pioneer 1000</p>
+                        <p>4 person</p>
+                    </div>
+                    <div>
+                        <img src="images/Honda-Pioneer-1000.webp" alt="Honda Pioneer 1000" loading="lazy">
+                    </div>
+                    <h3 class="rental-types-tag">Jeeps</h3>
+                    <div>
+                        <p>Jeep Wrangler</p>
+                        <p>4 door manuel with A/C</p>
+                        <p>5 person</p>
+                    </div>
+                    <div>
+                        <img src="images/Jeep-Wrangler-4-Door.webp" alt="4 door Jeep Wrangler" loading="lazy">
+                    </div>
+                    <div>
+                        <p>Jeep Wrangler</p>
+                        <p>2 door - open air - manuel</p>
+                        <p>4 person</p>
+                    </div>
+                    <div>
+                        <img src="images/2-door-2016-jeep-wrangler.webp" alt="2 door - Jeep Wrangler" loading="lazy">
+                    </div>
+            </div>
+        
+        <section id="weather">
+            <h2> Weather Information</h2>
+            <h4 id="weather-city"></h4>
+            <div class="weather-card">
+                <h4>Today</h4>
+                <h4><span id="current-temp"></span> </h4>
+                <figure>
+                    <img id="weather-icon" src="images" alt="Weather Icon">
+                    <figcaption id="fig1" class="weather-fig-captions"></figcaption>
+                </figure>
+                <h5>Humidity</h5>
+                <figcaption id="fig2" class="weather-fig-captions"></figcaption>
+            </div>
+            <div class="weather-card">
+                
+                <h4><span id="forecast-day-1"></span> </h4>
+                <h4><span id="forecast-temp-1"></span> </h4>
+                <figure>
+                    <img id="weather-icon1" src="images" class="w-icon" alt="weather icon">
+                    <figcaption id="fig3" class="weather-fig-captions"></figcaption>
+                </figure>
+            </div>
+        </section>
+    </div>
+    </main>
+    <footer>
+        <div id="info">
+        <p>&copy; <span id="copyrightYear"></span> Scoots | Cozumel, México.</p>
+        <p id="mod">Last Modification: <span id="modified">Today</span></p>
+        </div>
+        <div class="social">
+            <a href="https://www.facebook.com/lizandro.vivanco.1251" target="_blank">
+                <img src="images/facebook.webp" alt="Facebook icon">
+            </a>
+            <a href="https://www.instagram.com/lizandrov16/" target="_blank">
+                <img src="images/instagram.webp" alt="Instagram icon">
+            </a>
+            <a href="https://github.com/LizandroV" target="_blank">
+                <img src="images/Github.webp" alt="Github icon">
+            </a>
+            <a href="https://www.linkedin.com/in/lvivanco16/?locale=en_US" target="_blank">
+                <img src="images/LinkedIn.webp" alt="Linkedin icon">
+            </a>
+        </div>
+    </footer>
+    <script src="scripts/getdates.js"></script>
+    <script src="scripts/hamburgerMenu.js"></script>
+    <script src="scripts/slide.js"></script>
+    <script src="scripts/darkmode.js"></script>
+    <script src="scripts/windchill.js"></script>
+    <script src="scripts/date.js"></script>
+</body>
+</html>

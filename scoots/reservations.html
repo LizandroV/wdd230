@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scoots | Have Fun!</title>
+    <meta name="description" content="Get the best scooters at the best prices in Cozumel">
+    <meta name="author" content="Lizandro Vivanco">
+    <!--  FAVICON -->
+    <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+    <link rel="manifest" href="images/site.webmanifest">
+    <link rel="mask-icon" href="images/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    <!--  CSS STYLES -->
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <!-- FONTS -->
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lemon&family=Permanent+Marker&display=swap" rel="stylesheet">
+    <!--  Essential META Tags -->
+    <meta property="og:title" content="Scoots | Rent Page">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://static.eldiario.es/clip/26fcecb6-cf06-4d99-9f05-93ca7a378c10_16-9-discover-aspect-ratio_default_0.jpg">
+    <meta property="og:url" content="https://lizandrov.github.io/wdd230/scoots/index.html">
+    <meta name="twitter:card" content="summary_large_image">
+    <!--  Non-Essential, But Recommended -->
+    <meta property="og:description" content="Scoots Page for rental">
+    <meta property="og:site_name" content="Lizandro Vivanco">
+    <meta name="twitter:image:alt" content="Image of Cozumel, Mexico">
+    <!--  Non-Essential, But Required for Analytics -->
+    <meta property="fb:app_id" content="Lizandro_Vivanco">
+    <meta name="twitter:site" content="@LizandroV">
+</head>
+<body>
+    <header>
+        <h1>Scoots | Motor Scooter Rental Company </h1>
+        <div id="mode" title="Dark Mode">🔳</div>
+        <a href="./index.html"><img src="images/logo.webp" alt="Logo"></a>
+        <button id="menu"></button>
+    </header>
+    <nav class="navigation">
+        <a href="./index.html">Home</a>
+        <a href="./rentals.html">Rental</a>
+        <a href="./reservations.html">Reservations</a>
+        <a href="./contact.html">Contact</a>
+    </nav>
+    <main id="main-reservations">
+        <div class="my-form">
+        <form method="get" action="thanks.html">
+            <fieldset>
+                <legend>Personal Information</legend>
+                <label class="top"> Name*<input type="text" name="rdate" required autofocus></label>
+                <label class="top"> Phone*<input type="tel" name="Phone" placeholder="(32) 1234-56-78" required></label>
+                <label class="top"> Email*<input type="email" name="email" required placeholder="hello@company.com"></label>
+                <label class="top"> Home State or Country*<input type="text" name="country" required></label>
+                <label class="top"> Cruise Line<input type="text" name="cruiseLine"></label>
+            </fieldset>
+            <fieldset>
+                <legend>Reservation</legend>
+                <label class="top"> Reservation Date*<input type="date" name="rdate" required></label>
+                <label class="top"> Period*<input type="text" name="period" required></label>
+                <label class="top"> Rental Type*<input type="text" name="rType" required></label>
+            </fieldset>
+            <fieldset>
+                <legend>Comments</legend>
+                <label class="top"> Special/Accommodations<input type="text" name="cruiseLine"
+                        placeholder="ex. location of a drop-off request"></label>
+            </fieldset>
+            <input type="submit" value="Reserve Now!" class="submitBtn">
+            </form>
+        </div>
+        <div class="rental-info">
+            <h2 id="reservations-title">Rental agreement information</h2>
+            <ul class="styled-list2">
+                <li>A $50 security deposit is required to confirm reservations.</li>
+                <li>A valid drivers license is required in hand at the time of rental.</li>
+                <li>No one under the age of 12 years of age are allowed to ride on the scooters.</li>
+                <li>Fuel charge is not included.</li>
+                <li>Unlimited mileage</li>
+                <li>Liability insurance is included.</li>
+                <li>Damage insurance is available for purchase.</li>
+                <li>Free delivery to Cozumel hotels or Airbnbs for 2+ day rentals.</li>
+                <li>Payment via Google Pay, Apple Pay, cash, credit card, debit card, or venmo.</li>
+                <li>Rentals may be returned to either physical location.</li>
+            </ul>
+        </div>
+
+    </main>
+    <footer>
+        <div id="info">
+        <p>&copy; <span id="copyrightYear"></span> Scoots | Cozumel, México.</p>
+        <p id="mod">Last Modification: <span id="modified">Today</span></p>
+        </div>
+        <div class="social">
+            <a href="https://www.facebook.com/lizandro.vivanco.1251" target="_blank">
+                <img src="images/facebook.webp" alt="Facebook icon">
+            </a>
+            <a href="https://www.instagram.com/lizandrov16/" target="_blank">
+                <img src="images/instagram.webp" alt="Instagram icon">
+            </a>
+            <a href="https://github.com/LizandroV" target="_blank">
+                <img src="images/Github.webp" alt="Github icon">
+            </a>
+            <a href="https://www.linkedin.com/in/lvivanco16/?locale=en_US" target="_blank">
+                <img src="images/LinkedIn.webp" alt="Linkedin icon">
+            </a>
+        </div>
+    </footer>
+    <script src="scripts/getdates.js"></script>
+    <script src="scripts/hamburgerMenu.js"></script>
+    <script src="scripts/slide.js"></script>
+    <script src="scripts/darkmode.js"></script>
+</body>
+</html>
