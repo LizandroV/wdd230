@@ -295,7 +295,7 @@ footer #mod{
 /* ----------------RENTALS PAGE-------------------*/
 #table{
     border-collapse: collapse;
-    width: 100%;
+    width: 95%;
     max-width: 1200px;
     min-width: 500px;
     padding: 20px;
@@ -333,14 +333,9 @@ tr:first-child:hover td{
 .rentals_img{
     width: 100%;
     margin: 0 auto;
-}
-td:nth-child(1){
-    max-width: 100px;
+    padding-top: 10px;
 }
 
-td:nth-last-child(1){
-    display: none;
-}
 
 /* ------------------RESERVATIONS PAGE------------------ */
 #main-reservations{
@@ -454,8 +449,22 @@ form input:required:valid{
 }
 
 /*---------------------------- CONTACT-------------------------- */
-#contact-info{
+.contact-index{
+    display: flex;
+    flex-direction: column;
+}
+
+#contact-info, .maps1, .maps2{
     text-align: center;
+    margin: 20px;
+}
+
+.maps1{
+    flex-basis: 30%;
+}
+
+.maps2{
+    flex-basis: 300%;
 }
 
 .gmaps{
@@ -574,24 +583,33 @@ form input:required:valid{
         flex-basis: 50%;
     }
 
+    /* CONTACT */
     #contact-index{
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
+        justify-content: space-around;
     }
 
-    .maps{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
+    .contact-info{
+        flex-basis: 40%;
     }
-    .gmaps{
-        margin-top: 5rem;
-        flex-basis: 100%;
-        width: 50%;
+    
+    .maps1{
+        flex-basis: 30%;
+        padding: 20px;
+        text-align: center;
+    }
+    
+    .maps2{
+        flex-basis: 30%;
+        padding: 20px;
+        text-align: center;
     }
 
-    td:nth-last-child(1){
+    iframe{
+        width: 512px;
         display: block;
+        margin: 0 auto;
     }
 }
 
