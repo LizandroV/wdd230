@@ -16,14 +16,12 @@ const displayVehicles = (vehicles) => {
     let fullReserv = document.createElement("td");
     let halfWalk = document.createElement("td");
     let fullWalk = document.createElement("td");
-    let image = document.createElement("td");
 
     name.textContent = `${vehicle.type}`;
     halfReserv.textContent = `${vehicle.halfDayReserv}`;
     fullReserv.textContent = `${vehicle.fullDayReserv}`;
     halfWalk.textContent = `${vehicle.halfDayWalkin}`;
     fullWalk.textContent = `${vehicle.fullDayWalkin}`;
-    image.innerHTML = `<img class="rentals_img" src="${vehicle.image}" alt="${vehicle.type}">`;
 
     name.style.fontWeight = "bold";
     tentry.appendChild(name);
@@ -31,7 +29,6 @@ const displayVehicles = (vehicles) => {
     tentry.appendChild(fullReserv);
     tentry.appendChild(halfWalk);
     tentry.appendChild(fullWalk);
-    tentry.appendChild(image);
     
     table.appendChild(tentry);
   });

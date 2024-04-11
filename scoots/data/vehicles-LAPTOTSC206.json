@@ -6,8 +6,7 @@
             "halfDayReserv": "Reservation - Half Day (3hrs)",
             "fullDayReserv": "Reservation - Full Day",
             "halfDayWalkin": "Walk in - Half Day (3hrs)",
-            "fullDayWalkin": "Walk in - Full Day",
-            "image": "Image"
+            "fullDayWalkin": "Walk in - Full Day"
         },
         {
             "type": "Honda Metro Scooter",
@@ -15,8 +14,7 @@
             "halfDayReserv": "$20",
             "fullDayReserv": "$30",
             "halfDayWalkin": "$25",
-            "fullDayWalkin": "$35",
-            "image": "./images/honda-metropolitan.webp"
+            "fullDayWalkin": "$35"
         },
         {
             "type": "Honda Dio Scooter",
@@ -24,8 +22,7 @@
             "halfDayReserv": "$30",
             "fullDayReserv": "$40",
             "halfDayWalkin": "$35",
-            "fullDayWalkin": "$45",
-            "image": "./images/Honda-DIO.webp"
+            "fullDayWalkin": "$45"
         },
         {
             "type": "Honda PCX150 Scooter",
@@ -33,8 +30,7 @@
             "halfDayReserv": "$40",
             "fullDayReserv": "$50",
             "halfDayWalkin": "$45",
-            "fullDayWalkin": "$55",
-            "image": "./images/honda-pcx150.webp"
+            "fullDayWalkin": "$55"
         },
         {
             "type": "Honda Pioneer ATV",
@@ -42,8 +38,7 @@
             "halfDayReserv": "$50",
             "fullDayReserv": "$70",
             "halfDayWalkin": "$60",
-            "fullDayWalkin": "$80",
-            "image": "./images/Honda-Pioneer-1000.webp"
+            "fullDayWalkin": "$80"
         },
         {
             "type": "Jeep Wrangler - 4 door with a/c",
@@ -51,8 +46,7 @@
             "halfDayReserv": "$70",
             "fullDayReserv": "$100",
             "halfDayWalkin": "$85",
-            "fullDayWalkin": "$125",
-            "image": "./images/Jeep-Wrangler-4-Door.webp"
+            "fullDayWalkin": "$125"
         },
         {
             "type": "Jeep Wrangler - 2 door",
@@ -60,8 +54,7 @@
             "halfDayReserv": "$60",
             "fullDayReserv": "$85",
             "halfDayWalkin": "$70",
-            "fullDayWalkin": "$90",
-            "image": "./images/jeep-wrangler.webp"
+            "fullDayWalkin": "$90"
         }
         
     ]
