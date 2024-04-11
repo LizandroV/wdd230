@@ -460,7 +460,9 @@ form input:required:valid{
 
 .gmaps{
     text-align: center;
-    max-width: 100%;
+    width: 100%;
+    margin: 10px auto;
+    padding: 20px auto;
 }
 
 /* ----------------THANKS PAGE-------------------*/
@@ -574,16 +576,18 @@ form input:required:valid{
 
     #contact-index{
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
     }
 
-    #contact-info{
-        flex-basis: 40%;
+    .maps{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
-
     .gmaps{
         margin-top: 5rem;
-        flex-basis: 60%;
+        flex-basis: 100%;
+        width: 50%;
     }
 
     td:nth-last-child(1){
